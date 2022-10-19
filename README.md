@@ -1,6 +1,6 @@
 # Webpack-Template
-<a href="https://github.com/yocheco/webpack-template/actions/workflows/performance.yml">
-  <img src="https://github.com/yocheco/webpack-template/actions/workflows/performance.yml/badge.svg" />
+<a href="https://github.com/krown-one/impuso-assets/actions/workflows/performance.yml">
+  <img src="https://github.com/krown-one/impuso-assets/actions/workflows/performance.yml/badge.svg" />
 </a>
 
 ## Getting Started
