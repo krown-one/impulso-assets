@@ -16,3 +16,18 @@
     max-width: spacing.$max-width-lg;
   }
 }
+
+.container-full{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 spacing.$padding-sm;
+  width: 100%;
+
+  @include screen.media-up(sizes.$tablet){
+    padding: 0 spacing.$padding-md;
+  }
+
+  @include screen.media-up(sizes.$desktop){
+    padding: 0 spacing.$padding-md-full;
+  }
+}

@@ -1,0 +1,13 @@
+@use "../settings/typography";
+@use "../settings/spacing";
+
+.title{
+    font-size: typography.$fs-title;
+    &::after{
+        display: block;
+        content: '';
+        width: 100%;
+        border-bottom: 1px solid;
+        margin-top: spacing.$margin-sm;
+    }
+}

@@ -1,43 +1,36 @@
-$_primary-blue: #3c55ff;
-$_primary-blue-hover: #2538b4;
-$_primary-blue-dark: #3c55ff;
+$_primary-blue: #3C55FF;
+$_color-white: #ffffff;
+$_color-black: #000;
+$_color-black2: #1E1E1E;
+$color-gray: #B6B6B6;
+$_primary-gray-dark: #999999;
 
-
-$_primary-gray: #3d3d3d;
 $_primary-grayLight: #b1b1b1;
 $_primary-grayLighter: #efefef;
-$_primary-gray-dark: #181818;
-
-
-$_primary-white: #ffffff;
-$_primary-black: #000;
 
 $_secondary-violet: #55164f;
-
-$_hover-blue: rgb(60 85 255 / 70%);
-$_hover-white: rgb(255 255 255 / 70%);
 $_error: #f83d32;
 
 // Brand
 $brand: $_primary-blue;
 $primary-color: $_primary-blue;
-$primary-hover-color: $_primary-blue-hover;
+$primary-hover-color: $_primary-blue;
 
 // Background
 $bg-primary: $_primary-blue;
-$bg-light: $_primary-grayLighter;
-$bg-dark:$_primary-gray-dark;
+$bg-light: $_color-white;
+$bg-dark:$_color-black2;
 
 // Text
-$text: $_primary-gray;
-$text-dark: $_primary-grayLighter;
+$text: $_color-black;
+$text-dark: $color-gray;
 $text-primary: $_primary-blue;
-$text-secondary: $_primary-gray;
+$text-secondary: $color-gray;
 
 // Selecction
 $select-text: $_primary-blue;
 $select-bg: $_secondary-violet;
 
 // Tools
-$white: $_primary-white;
+$white: $_color-white;
 $error: $_error;

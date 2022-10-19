@@ -1,0 +1,11 @@
+@use "../settings/typography";
+@use "../settings/sizes";
+@use "../tools/screen";
+
+.title-big{
+    font-size: typography.$fs-title-big-sm;
+
+    @include screen.media-up(sizes.$tablet){
+        font-size: typography.$fs-title-big;
+    }
+}
