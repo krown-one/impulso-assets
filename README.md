@@ -58,11 +58,10 @@ styles
 
 ### TodoList
 
-- [ ] Add favicon.
-- [ ] Add manifest.
+- [x] Add favicon.
+- [x] Add manifest.
 - [ ] Add compress images.
-- [ ] Add cut css.
-- [x] 
+- [ ] Add cut css. 
 
 
 
