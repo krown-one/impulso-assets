@@ -56,6 +56,15 @@ styles
 └── index.scss
 ```
 
+### TodoList
+
+- [ ] Add favicon.
+- [ ] Add manifest.
+- [ ] Add compress images.
+- [ ] Add cut css.
+- [x] 
+
+
 
 ## Codigos git
 

@@ -1,0 +1,18 @@
+@use "../settings/spacing";
+@use "../settings/typography";
+
+footer{
+  margin-top: 5rem;
+  display: block;
+  hr{
+    margin-bottom: spacing.$margin-md;
+  }
+
+  span{
+    margin-top: spacing.$margin-lg;
+    padding-bottom: spacing.$margin-md;
+    display: block;
+    text-align: center;
+    font-size: typography.$fs-footer;
+  }
+}

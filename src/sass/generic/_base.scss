@@ -48,3 +48,7 @@ a {
 
 // icons
 i{ font-size: typography.$fs-icon;}
+
+*, :after, :before {
+  box-sizing: border-box;
+}

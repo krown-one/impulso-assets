@@ -1,0 +1,9 @@
+@use "../tools/screen";
+@use "../settings/spacing";
+@use "../settings/sizes";
+
+.p-cut{
+  @include screen.media-up(sizes.$tablet){
+    width: 25%;
+  }
+}

@@ -1,0 +1,35 @@
+@use "../settings/spacing";
+@use "../settings/border";
+@use "../settings/colors";
+
+.btn{
+  transition: background-color .5s ;
+  display: inline-flex;
+  gap: .7rem;
+  text-decoration: none;
+  color: var(--text-color);
+  border: 1px solid;
+  padding: spacing.$padding-btn-y spacing.$padding-btn-x;
+
+  border-radius: border.$radius;
+
+  svg{
+    transition: width .5s, height .5s ;
+  }
+
+  svg path{
+    fill:currentColor!important;
+  }
+
+  &:hover{
+    font-weight: 700;
+    color: colors.$white;
+    background-color: colors.$primary-color;
+    border-color: colors.$primary-color;
+
+    svg {
+      width: 27px;
+      height: 20px;
+    }
+  }
+}
